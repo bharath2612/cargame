@@ -1,3 +1,7 @@
+ html,body, .game{
+     height:100%;
+ }
+ 
  .hide{
           display:none;
  }
@@ -21,7 +25,7 @@
     position:absolute;
     height:100px;
     width:10px;
-    margin-left:95px ;
+    margin-left:145px ;
     background-color: white;
 }
 .score{
@@ -34,16 +38,18 @@
 }
 .gameArea{
     background-color:black;
-    width:200px;
-    height:800px;
+    width:300px;
+    height:100%;
     overflow:hidden;
     position:relative;
     margin:auto;
 } 
 .startScreen{
     text-align:center;
-    border:1px solid red;
+    background-color: red ;
+    border:1px solid black;
     padding:15px;
+    color:white;
     margin:auto;
     width:300px;
 }
